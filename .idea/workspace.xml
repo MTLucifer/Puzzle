@@ -1,18 +1,42 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="35382b34-9fe8-4281-8dae-9559c290762f" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/puzzle.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cut_images_Txye8mhYuz/image2_part (1).jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cut_images_Txye8mhYuz/image2_part (2).jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cut_images_Txye8mhYuz/image2_part (3).jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cut_images_Txye8mhYuz/image2_part (4).jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cut_images_Txye8mhYuz/image2_part (5).jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cut_images_uLT78oqSnclCIqs/image3_part (1).jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cut_images_uLT78oqSnclCIqs/image3_part (2).jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cut_images_uLT78oqSnclCIqs/image3_part (3).jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cut_images_uLT78oqSnclCIqs/image3_part (4).jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cut_images_uLT78oqSnclCIqs/image3_part (5).jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/image1/image1_part_001.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/image1_part_001.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/image1/image1_part_002.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/image1_part_002.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/image1/image1_part_003.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/image1_part_003.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/image1/image1_part_004.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/image1_part_004.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/image1/image1_part_005.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/image1_part_005.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/image2/image2_part_001.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/image2_part_001.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/image2/image2_part_002.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/image2_part_002.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/image2/image2_part_003.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/image2_part_003.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/image2/image2_part_004.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/image2_part_004.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/image2/image2_part_005.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/image2_part_005.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/image3/image3_part_001.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/image3_part_001.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/image3/image3_part_002.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/image3_part_002.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/image3/image3_part_003.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/image3_part_003.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/image3/image3_part_004.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/image3_part_004.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/image3/image3_part_005.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/image3_part_005.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/puzzle.html" beforeDir="false" afterPath="$PROJECT_DIR$/puzzle.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -24,6 +48,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="HTML File" />
+        <option value="CSS File" />
       </list>
     </option>
   </component>
@@ -40,6 +65,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
   </component>
@@ -63,12 +89,23 @@
       <updated>1597290603890</updated>
       <workItem from="1597290604937" duration="10380000" />
       <workItem from="1597367300567" duration="48000" />
-      <workItem from="1597389754937" duration="518000" />
+      <workItem from="1597389754937" duration="8324000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="WindowStateProjectService">
     <state x="441" y="233" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1597296346332">
@@ -79,5 +116,9 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="463" y="105" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1597367345120" />
+    <state x="307" y="157" width="672" height="678" key="search.everywhere.popup" timestamp="1597394786550">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="307" y="157" width="672" height="678" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1597394786550" />
   </component>
 </project>

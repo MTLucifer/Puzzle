@@ -5,68 +5,74 @@
     <title>Puzzle</title>
 </head>
 <body>
-<p>
-        <img alt="" src="image1/image1_part_001.jpg"
-             style="height: 85px; width: 198px" id="img1st" onclick="changeImage1st()"/>
-        <br>
-        <img alt="" src="image2/image2_part_002.jpg"
-             style="height: 85px; width: 198px" id="img2nd" onclick="changeImage2nd()"/>
-        <br>
-        <img alt="" src="image3/image3_part_003.jpg"
-             style="height: 85px; width: 198px" id="img3rd" onclick="changeImage3rd()"/>
-        <br>
-        <img alt="" src="image1/image1_part_004.jpg"
-             style="height: 85px; width: 198px" id="img4th" onclick="changeImage4th()"/>
-        <br>
-        <img alt="" src="image2/image2_part_005.jpg"
-             style="height: 85px; width: 198px" id="img5th" onclick="changeImage5th()"/>
-</p>
+<link rel="stylesheet" href="puzzle.css">
+<p><img alt="" src="image1_part_001.jpg" id="img1" onclick="changeImage(1)"/></p>
+<p><img alt="" src="image2_part_002.jpg" id="img2" onclick="changeImage(2)"/></p>
+<p><img alt="" src="image3_part_003.jpg" id="img3" onclick="changeImage(3)"/></p>
+<p><img alt="" src="image1_part_004.jpg" id="img4" onclick="changeImage(4)"/></p>
+<p><img alt="" src="image2_part_005.jpg" id="img5" onclick="changeImage(5)"/></p>
 <script>
-    function changeImage1st() {
-        if (document.getElementById("img1st").src === "cut_images_CbtvywjpLsvnY/image1_part_001.jpg") {
-            document.getElementById("img1st").src = "cut_images_Txye8mhYuz/image2_part_001.jpg";
-        } else if (document.getElementById("img1st").src === "cut_images_Txye8mhYuz/image2_part_001.jpg"){
-            document.getElementById("img1st").src = "cut_images_uLT78oqSnclCIqs/image3_part_001.jpg";
+    function changeImage(index) {
+        let img = document.getElementById("img"+index)
+        let count1 = "image1_part_00"+index+".jpg"
+        let count2 = "image2_part_00"+index+".jpg"
+        let count3 = "image3_part_00"+index+".jpg"
+        if (img.src.match(count1)) {
+            img.src = count2;
+        } else if (img.src.match(count2)) {
+            img.src = count3;
         } else {
-            document.getElementById("img1st").src = "cut_images_CbtvywjpLsvnY/image1_part_001.jpg";
+            img.src = count1;
+            checkDone();
         }
     }
-    function changeImage2nd() {
-        if (document.getElementById("img2nd").src === "http://www.userinterfaceicons.com/80x80/minimize.png") {
-            document.getElementById("img2nd").src = "https://i.pinimg.com/originals/0f/c0/5a/0fc05a05326a9327201bccf320d02e75.png";
-        } else if (document.getElementById("img2nd").src === "https://i.pinimg.com/originals/0f/c0/5a/0fc05a05326a9327201bccf320d02e75.png")  {
-            document.getElementById("img2nd").src = "https://wallpaperaccess.com/full/810821.jpg";
-        } else {
-            document.getElementById("img2nd").src = "http://www.userinterfaceicons.com/80x80/minimize.png";
+    function checkDone(index) {
+        if (img === "image" + index + "_part_001.jpg" &&
+            img === "image" + index + "_part_002.jpg" &&
+            img === "image" + index + "_part_003.jpg" &&
+            img === "image" + index + "_part_004.jpg" &&
+            img === "image" + index + "_part_005.jpg") {
+                alert("You win");
         }
     }
-    function changeImage3rd() {
-        if (document.getElementById("img3rd").src === "http://www.userinterfaceicons.com/80x80/minimize.png") {
-            document.getElementById("img3rd").src = "https://i.pinimg.com/originals/0f/c0/5a/0fc05a05326a9327201bccf320d02e75.png";
-        } else if (document.getElementById("img3rd").src === "https://i.pinimg.com/originals/0f/c0/5a/0fc05a05326a9327201bccf320d02e75.png")  {
-            document.getElementById("img3rd").src = "https://wallpaperaccess.com/full/810821.jpg";
-        } else {
-            document.getElementById("img3rd").src = "http://www.userinterfaceicons.com/80x80/minimize.png";
-        }
-    }
-    function changeImage4th() {
-        if (document.getElementById("img4th").src === "http://www.userinterfaceicons.com/80x80/minimize.png") {
-            document.getElementById("img4th").src = "https://i.pinimg.com/originals/0f/c0/5a/0fc05a05326a9327201bccf320d02e75.png";
-        } else if (document.getElementById("img4th").src === "https://i.pinimg.com/originals/0f/c0/5a/0fc05a05326a9327201bccf320d02e75.png")  {
-            document.getElementById("img4th").src = "https://wallpaperaccess.com/full/810821.jpg";
-        } else {
-            document.getElementById("img4th").src = "http://www.userinterfaceicons.com/80x80/minimize.png";
-        }
-    }
-    function changeImage5th() {
-        if (document.getElementById("img5th").src === "http://www.userinterfaceicons.com/80x80/minimize.png") {
-            document.getElementById("img5th").src = "https://i.pinimg.com/originals/0f/c0/5a/0fc05a05326a9327201bccf320d02e75.png";
-        } else if (document.getElementById("img5th").src === "https://i.pinimg.com/originals/0f/c0/5a/0fc05a05326a9327201bccf320d02e75.png")  {
-            document.getElementById("img5th").src = "https://wallpaperaccess.com/full/810821.jpg";
-        } else {
-            document.getElementById("img5th").src = "http://www.userinterfaceicons.com/80x80/minimize.png";
-        }
-    }
-   </script>
+
+
+    // unction changeImage2nd() {
+    //      if (document.getElementById("img2nd").src === "http://www.userinterfaceicons.com/80x80/minimize.png") {
+    //          document.getElementById("img2nd").src = "https://i.pinimg.com/originals/0f/c0/5a/0fc05a05326a9327201bccf320d02e75.png";
+    //      } else if (document.getElementById("img2nd").src === "https://i.pinimg.com/originals/0f/c0/5a/0fc05a05326a9327201bccf320d02e75.png")  {
+    //          document.getElementById("img2nd").src = "https://wallpaperaccess.com/full/810821.jpg";
+    //      } else {
+    //          document.getElementById("img2nd").src = "http://www.userinterfaceicons.com/80x80/minimize.png";
+    //      }
+    //  }
+    //  function changeImage3rd() {
+    //      if (document.getElementById("img3rd").src === "http://www.userinterfaceicons.com/80x80/minimize.png") {
+    //          document.getElementById("img3rd").src = "https://i.pinimg.com/originals/0f/c0/5a/0fc05a05326a9327201bccf320d02e75.png";
+    //      } else if (document.getElementById("img3rd").src === "https://i.pinimg.com/originals/0f/c0/5a/0fc05a05326a9327201bccf320d02e75.png")  {
+    //          document.getElementById("img3rd").src = "https://wallpaperaccess.com/full/810821.jpg";
+    //      } else {
+    //          document.getElementById("img3rd").src = "http://www.userinterfaceicons.com/80x80/minimize.png";
+    //      }
+    //  }
+    //  function changeImage4th() {
+    //      if (document.getElementById("img4th").src === "http://www.userinterfaceicons.com/80x80/minimize.png") {
+    //          document.getElementById("img4th").src = "https://i.pinimg.com/originals/0f/c0/5a/0fc05a05326a9327201bccf320d02e75.png";
+    //      } else if (document.getElementById("img4th").src === "https://i.pinimg.com/originals/0f/c0/5a/0fc05a05326a9327201bccf320d02e75.png")  {
+    //          document.getElementById("img4th").src = "https://wallpaperaccess.com/full/810821.jpg";
+    //      } else {
+    //          document.getElementById("img4th").src = "http://www.userinterfaceicons.com/80x80/minimize.png";
+    //      }
+    //  }
+    //  function changeImage5th() {
+    //      if (document.getElementById("img5th").src === "http://www.userinterfaceicons.com/80x80/minimize.png") {
+    //          document.getElementById("img5th").src = "https://i.pinimg.com/originals/0f/c0/5a/0fc05a05326a9327201bccf320d02e75.png";
+    //      } else if (document.getElementById("img5th").src === "https://i.pinimg.com/originals/0f/c0/5a/0fc05a05326a9327201bccf320d02e75.png")  {
+    //          document.getElementById("img5th").src = "https://wallpaperaccess.com/full/810821.jpg";
+    //      } else {
+    //          document.getElementById("img5th").src = "http://www.userinterfaceicons.com/80x80/minimize.png";
+    //      }
+    //  }
+</script>
 </body>
 </html>
